@@ -1,0 +1,36 @@
+body, html {
+    min-height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin: 0;
+}
+
+#bola {
+    height: 300px;
+    display: block;
+    margin: auto;   
+}
+
+.click-area {
+    background-image: url(imgs/grama.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    grid-row-start: 1;
+    height: 900px;
+}
+
+.click-area h1{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.centro {
+    background-image: url(imgs/campo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start: 2;
+}
