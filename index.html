@@ -9,10 +9,10 @@
 <body>
     <section id="click-area">
         <h1>Campo de Futebol de <input id="nome" type="text" placeholder="insira seu nome aqui"></h1>
-        <h1>0 Gols</h1>
-        <img id="bola" src="imgs/bolas/bola7.png" alt="Bola de Futebol">
+        <h1 id="mostrador">0 Gols</h1>
+        <img id="bola" src="imgs/bolas/bola1.png" alt="Bola de Futebol">
     </section>
-
+    
     <section id="centro">
         <h1>Seu Equipamento</h1>
         <div id="equipamentos">
@@ -26,7 +26,7 @@
             </article>
         </div>
     </section>
-    
+
     <section id="stats">
         <h1>Estatísticas</h1>
         <p>Gols por clique: 1</p>
@@ -41,9 +41,9 @@
             <img src="imgs/icon-bola.png" alt="Upgrade Bola de Futebol">
             <div class="info">
                 <h3>Bola de Futebol</h3>
-                <p>Nível: 1</p>
-                <p>Custo: 50 Gols</p>
-                <button>Comprar</button>
+                <p id="nivel-bola">Nível: 1</p>
+                <p id="custo-bola">Custo: 50 Gols</p>
+                <button id="comprar-bola">Comprar</button>
             </div>
         </article>
 
@@ -53,7 +53,7 @@
                 <h3>Chuteiras de Futebol</h3>
                 <p>Nível: 1</p>
                 <p>Custo: 150 Gols</p>
-                <button>Comprar</button>
+                <button id="comprar-chuteira">Comprar</button>
             </div>
         </article>
 
@@ -63,7 +63,7 @@
                 <h3>Time de Futebol</h3>
                 <p>Nível: 1</p>
                 <p>Custo: 200 Gols</p>
-                <button>Comprar</button>
+                <button id="comprar-time">Comprar</button>
             </div>
         </article>
 
@@ -73,10 +73,12 @@
                 <h3>Campo de Futebol</h3>
                 <p>Nível: 1</p>
                 <p>Custo: 300 Gols</p>
-                <button>Comprar</button>
+                <button id="comprar-campo">Comprar</button>
             </div>
         </article>
 
     </section>
+    
+    <script src="scripts.js"></script>
 </body>
 </html>
