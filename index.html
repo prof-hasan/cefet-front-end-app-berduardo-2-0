@@ -7,17 +7,76 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="click-area">
-        <h1>Campo de Futebol de xxx</h1>
+    <section id="click-area">
+        <h1>Campo de Futebol de <input id="nome" type="text" placeholder="insira seu nome aqui"></h1>
         <h1>0 Gols</h1>
-        <img id="bola" src="imgs/bola4.png" alt="Bola de Futebol">
-    </div>
-    <div class="centro">
-        <nav>
-            <ul>
-                
-            </ul>
-        </nav>
-    </div>
+        <img id="bola" src="imgs/bolas/bola1.png" alt="Bola de Futebol">
+    </section>
+
+    <section id="centro">
+        <h1>Seu Equipamento</h1>
+        <div id="equipamentos">
+            <article id="time">
+                <h2>Time</h2>
+                <img src="imgs/times/time1.png" alt="Seu time atual">
+            </article>
+            <article id="chuteira">
+                <h2>Chuteiras</h2>
+                <img src="imgs/chuteiras/chuteira1.png" alt="Suas chuteiras">
+            </article>
+        </div>
+    </section>
+
+    <section id="stats">
+        <h1>Estatísticas</h1>
+        <p>Gols por clique: 1</p>
+        <p>Gols por segundo: 0</p>
+        <p>Gols totais: 0</p>
+    </section>
+
+    <section id="upgrade-area">
+        <h2>Upgrades</h2>
+
+        <article id="upgrade-bola">
+            <img src="imgs/icon-bola.png" alt="Upgrade Bola de Futebol">
+            <div class="info">
+                <h3>Bola de Futebol</h3>
+                <p>Nível: 1</p>
+                <p>Custo: 50 Gols</p>
+                <button>Comprar</button>
+            </div>
+        </article>
+
+        <article id="upgrade-chuteira">
+            <img src="imgs/icon-chuteira.png" alt="Upgrade Chuteiras de Futebol">
+            <div class="info">
+                <h3>Chuteiras de Futebol</h3>
+                <p>Nível: 1</p>
+                <p>Custo: 150 Gols</p>
+                <button>Comprar</button>
+            </div>
+        </article>
+
+        <article id="upgrade-time">
+            <img src="imgs/icon-time.png" alt="Upgrade Time de Futebol">
+            <div class="info">
+                <h3>Time de Futebol</h3>
+                <p>Nível: 1</p>
+                <p>Custo: 200 Gols</p>
+                <button>Comprar</button>
+            </div>
+        </article>
+
+        <article id="upgrade-campo">
+            <img src="imgs/icon-campo.png" alt="Upgrade Campo de Futebol">
+            <div class="info">
+                <h3>Campo de Futebol</h3>
+                <p>Nível: 1</p>
+                <p>Custo: 300 Gols</p>
+                <button>Comprar</button>
+            </div>
+        </article>
+
+    </section>
 </body>
 </html>
