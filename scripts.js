@@ -202,6 +202,6 @@ function mostrarDescricao(areaSelecionada, descricaoSelecionada, X, Y) {
 }
 
 mostrarDescricao("#upgrade-bola", "#descricao-bola", -170, -120);
-mostrarDescricao("#upgrade-chuteira", "#descricao-chuteira", -150, -120);
+mostrarDescricao("#upgrade-chuteira", "#descricao-chuteira", -180, -120);
 mostrarDescricao("#upgrade-time", "#descricao-time", -170, -120);
 mostrarDescricao("#upgrade-campo", "#descricao-campo", -170, -120);
