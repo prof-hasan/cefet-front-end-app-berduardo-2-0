@@ -204,3 +204,16 @@ Na última aula do bimestre, o trabalho deve ser apresentado em sala de aula. N�
 [git]: https://git-scm.com/
 [github]: https://github.com/
 [gh-pages]: https://pages.github.com/
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+IDEIAS EM RELAÇÃO AO JOGO:
+
+1- Será um clicker futebolístico, no qual o usuário poderá clicar em uma bola, adquirindo "gols", uma moeda de troca para outras melhorias.
+
+2- Melhorias:
+   - Chuteiras melhores
+   - Estádios melhores
+   - Times melhores
+   - Habilidades do jogador (chute, passe, velocidade etc.)
+   - Melhorias clássicas de jogos clicker (velocidade do click, por exemplo)
