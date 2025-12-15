@@ -199,7 +199,6 @@ body {
     cursor: pointer;
     width: 120px;
     border: none;
-    opacity: 20%;
 }
 
 #upgrade-area img {
@@ -215,6 +214,101 @@ body {
     margin-left: 120px;
 }
 
+@media (max-width: 900px) {
+    body {
+        display: block;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+
+    #click-area, #centro, #upgrade-area {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-top: 5px solid rgb(130, 30, 30);
+    }
+
+    #click-area { padding: 20px 0; }
+
+    #bola {
+        height: 160px;
+        max-width: 60%;
+    }
+
+    #centro {
+        background-size: cover;
+        padding: 20px 0;
+        height: 40vh;
+    }
+
+    #upgrade-area .info {
+        margin-left: 100px;
+    }
+    #upgrade-area article {
+        display: flex; align-items: center;
+    }
+    #upgrade-area img {
+        float: none;
+        margin-top: 0;
+        margin-right: 12px;
+    }
+
+    #upgrade-area button {
+        width: auto;
+        padding: 8px 10px;
+    }
+
+    #stats {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #bola {
+        height: 120px;
+        max-width: 50%;
+    }
+    
+    #click-area {
+        padding: 12px 0;
+    }
+
+    #time, #chuteira {
+        font-size: 0.7em;
+    }
+
+    #upgrade-area .info {
+        margin-left: 0;
+    }
+
+    #upgrade-area article {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #upgrade-area img {
+        height: 60px;
+        margin: 8px 0;
+    }
+
+    #upgrade-area button {
+        width: 100%;
+    }
+
+    #nome {
+        font-size: 0.95em;
+    }
+
+    #upgrade-area {
+        padding: 8px 8px;
+    }
+
+    #descricao-bola, #descricao-chuteira, #descricao-time, #descricao-campo {
+        max-width: calc(100vw - 30px);
+        transform: translateX(-10px);
+    }
+}
+
 #descricao-bola, #descricao-chuteira, #descricao-time, #descricao-campo {
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -226,10 +320,8 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: none;
-    opacity: 100%;
 }
 
 .compravel {
-    opacity: 100%;
-    background-color: white;
+    background-color: rgba(45, 219, 60, 1);
 }

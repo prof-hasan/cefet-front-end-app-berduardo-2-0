@@ -109,6 +109,11 @@ function atualizarCompravel() {
     Object.values(upgrades).forEach(upg => {
         upg.compravel = totalGols >= upg.valor && upg.lvl < upg.maxLvl;
         upg.btnEl.disabled = !upg.compravel;
+        if (upg.compravel) {
+            upg.btnEl.classList.add("compravel");
+        } else {
+            upg.btnEl.classList.remove("compravel");
+        }
     });
 }
 
