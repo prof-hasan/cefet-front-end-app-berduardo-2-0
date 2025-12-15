@@ -198,6 +198,8 @@ body {
     padding: 5px 5px;
     cursor: pointer;
     width: 120px;
+    border: none;
+    opacity: 20%;
 }
 
 #upgrade-area img {
@@ -224,4 +226,10 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: none;
+    opacity: 100%;
+}
+
+.compravel {
+    opacity: 100%;
+    background-color: white;
 }
